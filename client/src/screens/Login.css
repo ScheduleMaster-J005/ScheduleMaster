@@ -1,0 +1,9 @@
+.form-group{
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-label {
+    margin-right: 10px; /* Adjust the spacing as needed */
+  }
+  
