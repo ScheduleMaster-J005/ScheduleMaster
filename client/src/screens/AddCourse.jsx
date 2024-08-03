@@ -11,22 +11,22 @@ function AddCourse() {
     const [endDate,setEndDate]=useState('');
 
     const onSave=()=>{
-        if(name.length===0){
+        if(name.length==0){
             alert('Please enter valid Course Name');
-        }else if(facultyName.length===0){
+        }else if(facultyName.length==0){
             console.log(name);
             alert('Please enter valid Faculty Name');
-        }else if(description.length===0){
+        }else if(description.length==0){
             alert('Please enter valid Description');
-        }else if(course_id.length===0){
+        }else if(course_id.length==0){
             alert('Please enter valid Course Id');
-        }else if(fee.length===0){
+        }else if(fee.length==0){
             alert('Please enter valid Faculty Name');
-        }else if(faculty_id.length===0){
+        }else if(faculty_id.length==0){
             alert('Please enter valid Faculty Id');
-        }else if(startDate.length===0){
+        }else if(startDate.length==0){
             alert('Please enter valid start date');
-        }else if(endDate.length===0){ 
+        }else if(endDate.length==0){ 
             alert('Please enter valid End date');
         }
 
